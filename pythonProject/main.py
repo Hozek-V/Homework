@@ -53,3 +53,7 @@ def fig_h():
 def fig_i():
     for i in range(5):
         print("*" * (5 - i) + " " * i)
+
+def fig_j():
+    for i in range(5):
+        print(" " * (4 - i) + "*" * (i + 1))
