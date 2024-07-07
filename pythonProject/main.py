@@ -12,3 +12,10 @@ def fig_c():
             print(" "*i + "*"*(5-2*i) + " "*i)
         else:
             print(" "*5)
+
+def fig_d():
+    for i in range(5):
+        if i>1:
+            print(" "*(4-i) + "*"*(2*i-3) + " "*(4-i))
+        else:
+            print(" "*5)
