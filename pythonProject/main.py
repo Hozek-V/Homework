@@ -35,3 +35,10 @@ def fig_f():
             print("*"*5)
         else:
             print("*" * (5 - i) + " " * (2 * i - 5) + "*" * (5 - i))
+
+def fig_g():
+    for i in range(5):
+        if i <=2:
+            print("*" * (i + 1) + " " * (4 - i))
+        else:
+            print("*" * (5 - i) + " " * i)
