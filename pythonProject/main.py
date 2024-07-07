@@ -19,3 +19,10 @@ def fig_d():
             print(" "*(4-i) + "*"*(2*i-3) + " "*(4-i))
         else:
             print(" "*5)
+
+def fig_e():
+    for i in range(5):
+        if i<3:
+            print(" "*i + "*"*(5-2*i) + " "*i)
+        else:
+            print(" " * (4 - i) + "*" * (2 * i - 3) + " " * (4 - i))
