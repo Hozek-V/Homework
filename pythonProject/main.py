@@ -42,3 +42,10 @@ def fig_g():
             print("*" * (i + 1) + " " * (4 - i))
         else:
             print("*" * (5 - i) + " " * i)
+
+def fig_h():
+    for i in range(5):
+        if i <=2:
+            print(" " * (4 - i) + "*" * (i + 1))
+        else:
+            print(" " * i + "*" * (5 - i))
